@@ -1,5 +1,4 @@
-import Profile from './Profile'
-// import PropTypes from 'prop-types'
+import Profile from './Profile';
 
 export default function UserProfile({ user }) {
   return (
@@ -14,5 +13,5 @@ export default function UserProfile({ user }) {
         likes={user.stats.likes}
       />
     </div>
-  )
+  );
 }
